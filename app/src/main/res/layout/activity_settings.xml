@@ -5,21 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".SettingsActivity">
 
-    <ImageView
+
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/brolistlogo"
+        android:text="Sign Out"
+
+        android:id="@+id/btnSignOut"
+        android:layout_gravity="center"
         />
-
-    <com.google.android.gms.common.SignInButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/signinBtn"
-
-        />
-
-
 </LinearLayout>
